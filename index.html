@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minoxidil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="Minoxidilex.png" type="image/x-icon">
+
+    <style>
+        body {
+            background-color: #ffffff;
+            color: #2E3758;
+        }
+        .header-text {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .product-image {
+            text-align: center;
+            margin-bottom: 30px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .product-image img {
+            max-width: 50%;
+            height: auto;
+            border-radius: 5px;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        .benefits-row {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            padding: 0 15px;
+        }
+        .benefit {
+            flex: 1;
+            text-align: center;
+            padding: 15px;
+            margin: 10px;
+            background-color: #C7C8CD;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .benefit-icon {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            color: #6a1b9a;
+        }
+        .try-button {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .try-button .btn {
+            background-color: #2E3758;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            border-radius: 50px;
+            border: none;
+        }
+        .try-button .btn:hover {
+            background-color: #2E3758;
+        }
+        .product-details {
+            display: flex;
+            align-items: center;
+            margin-top: 50px;
+        }
+        .product-details .text {
+            flex: 1;
+            padding-right: 20px;
+        }
+        .product-details .image {
+            flex: 1;
+            text-align: center;
+        }
+        .product-details .image img {
+            max-width: 80%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .solution-section {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .solution-section h2 {
+            margin-bottom: 30px;
+        }
+        .solution-cards {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        .solution-card {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px; /* Aumentado */
+            text-align: center;
+            min-height: 300px; /* Altura mínima ajustada */
+        }
+        .solution-card img {
+            width: 150px; /* Largura aumentada */
+            height: 150px; /* Altura aumentada */
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+       
+            
+            /* Estilo atualizado dos cards */
+            .solution-card {
+                background: linear-gradient(135deg, #6e7799, #21273F); /* Degradê de roxo escuro para roxo claro */
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                padding: 30px; /* Aumentado */
+                text-align: center;
+                min-height: 300px; /* Altura mínima ajustada */
+                color: #fff; /* Texto branco para contraste */
+            }
+        
+            /* Cards para modo de uso */
+            .card {
+                background: linear-gradient(135deg, #222841, #222841e3); /* Degradê de roxo escuro para roxo claro */
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                color: #fff; /* Texto branco para contraste */
+            }
+        
+            /* Ajustes nos títulos e textos */
+            .solution-card h5, 
+            .card h5 {
+                font-size: 1.5rem;
+                margin-top: 20px;
+                font-weight: bold;
+            }
+        
+            .solution-card p,
+            .card p {
+                font-size: 1rem;
+                line-height: 1.5;
+            }
+        
+        
+    </style>
+</head>
+<body>
+
+<div class="container mt-5 p-5">
+    <div class="header-text">
+        <h1>Minoxidil</h1>
+        <h2>Você sofre com queda de cabelo e calvície?</h2>
+        <p>Aproveite o melhor tratamento para estimular o crescimento capilar de forma eficaz.</p>
+    </div>
+    <div class="product-image">
+        <img src="Minoxidilex.png" alt="Minoxidil">
+    </div>
+    <div class="row benefits-row">
+        <div class="col-md-3 benefit">
+            <div class="benefit-icon">💪</div>
+            <h5>Fortalece os fios</h5>
+            <p>Promove a resistência e saúde dos cabelos.</p>
+        </div>
+        <div class="col-md-3 benefit">
+            <div class="benefit-icon">🌱</div>
+            <h5>Estimula o crescimento</h5>
+            <p>Acelera o surgimento de novos fios.</p>
+        </div>
+        <div class="col-md-3 benefit">
+            <div class="benefit-icon">🛡️</div>
+            <h5>Reduz a queda</h5>
+            <p>Previne a queda excessiva dos fios.</p>
+        </div>
+        <div class="col-md-3 benefit">
+            <div class="benefit-icon">🔬</div>
+            <h5>Aprovado cientificamente</h5>
+            <p>Comprovação científica de sua eficácia.</p>
+        </div>
+    </div>
+    <div class="try-button">
+        <a href="#" class="btn">Quero Experimentar</a>
+    </div>
+
+    <div class="product-details">
+        <div class="text">
+            <h2>Sinta-se bem novamente usando minoxidil! Até 10 meses sem crise.</h2>
+            <p>O Minoxidil é um tratamento capilar eficaz, utilizado para estimular o crescimento de novos fios e prevenir a queda de cabelo. Com sua fórmula comprovada, ele atua diretamente no couro cabeludo, revitalizando os folículos capilares e fortalecendo os cabelos existentes.</p>
+        </div>
+        <div class="image">
+            <img src="minoxidil.jpg" alt="Produto Minoxidil">
+        </div>
+    </div>
+</div>
+
+<div class="try-button mt-2">
+    <a href="#" class="btn">Quero Experimentar Minoxidil</a>
+</div>
+
+  <!-- Nova Seção -->
+  <!-- <div class="solution-section">
+    <h2>Solução esperada para sua queda de cabelo!</h2>
+    <div class="solution-cards">
+        <div class="solution-card">
+            <img src="" alt="Fortalecimento Capilar">
+            <h5>Fortalecimento Capilar Profundo</h5>
+            <p>O Minoxidil age diretamente nos folículos capilares, promovendo o fortalecimento dos fios existentes e prevenindo a quebra. Estudos indicam que o uso contínuo pode resultar em cabelos mais espessos e resistentes.</p>
+        </div>
+        <div class="solution-card">
+            <img src="" alt="Estimulação do Crescimento de Novos Fios">
+            <h5>Estimulação do Crescimento de Novos Fios</h5>
+            <p>Ao aumentar o fluxo sanguíneo no couro cabeludo, o Minoxidil estimula os folículos adormecidos, promovendo o surgimento de novos fios e aumentando a densidade capilar.</p>
+        </div>
+        <div class="solution-card">
+            <img src="https://blog.oceane.com.br/wp-content/uploads/2024/02/destaque-cortes-de-cabelo-masculino.jpg" alt="Redução da Queda de Cabelo">
+            <h5>Redução da Queda de Cabelo</h5>
+            <p>O uso regular do Minoxidil pode retardar ou até mesmo interromper a queda de cabelo, proporcionando um ciclo capilar mais saudável e equilibrado.</p>
+        </div>
+        <div class="solution-card">
+            <img src="" alt="Revitalização dos Folículos Capilares">
+            <h5>Revitalização dos Folículos Capilares</h5>
+            <p>Ao revitalizar os folículos capilares, o Minoxidil contribui para a produção de fios mais fortes e saudáveis, melhorando a saúde geral do couro cabeludo.</p>
+        </div>
+    </div>
+</div>
+<div class="try-button mt-5">
+    <a href="#" class="btn">Quero Minoxidil</a>
+</div> -->
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Qual o modo de uso ?</h2>
+    <div class="row text-center">
+        <div class="col-md-4">
+            <div class="card p-4 " style="min-height: 450px;">
+                <img src="lavando.jpeg" class="rounded-circle mx-auto d-block mt-4" alt="Lavar o couro cabeludo" style="width: 180px; height: 180px;">
+                <h5 class="mt-5">Passo 1</h5>
+                <p class="mt-1">Lave bem o couro cabeludo com shampoo e seque completamente antes de aplicar o Minoxidil.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card p-4" style="min-height: 450px;">
+                <img src="aplicando.jpeg" class="rounded-circle mx-auto d-block mt-4" alt="Aplicar o produto" style="width: 180px; height: 180px;">
+                <h5 class="mt-5">Passo 2</h5>
+                <p class="mt-1">Use o conta-gotas para aplicar 1ml do Minoxidil diretamente nas áreas afetadas do couro cabeludo.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card p-4" style="min-height: 450px;">
+                <img src="massagem.jpeg" class="rounded-circle mx-auto d-block mt-4" alt="Massagear suavemente" style="width: 180px; height: 180px;">
+                <h5 class="mt-5">Passo 3</h5>
+                <p class="mt-1">Massageie o couro cabeludo suavemente com as pontas dos dedos para ajudar na absorção do produto.</p>
+            </div>
+        </div>
+    </div>
+    <div class="try-button mt-5 text-center">
+        <a href="#" class="btn btn-primary btn-lg">Quero Experimentar Minoxidil</a>
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
