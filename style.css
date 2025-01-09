@@ -1,0 +1,157 @@
+body {
+    background-color: #ffffff;
+    color: #2E3758;
+}
+.header-text {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.product-image {
+    text-align: center;
+    margin-bottom: 30px;
+    animation: fadeIn 2s ease-in-out;
+}
+.product-image img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 5px;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.benefits-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 0 15px;
+}
+.benefit {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+    background-color: #C7C8CD;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.benefit-icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #6a1b9a;
+}
+.try-button {
+    text-align: center;
+    margin-top: 20px;
+}
+.try-button .btn {
+    background-color: #2E3758;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    border: none;
+}
+.try-button .btn:hover {
+    background-color: #2E3758;
+}
+.product-details {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.product-details .text {
+    flex: 1;
+    padding-right: 20px;
+}
+.product-details .image {
+    flex: 1;
+    text-align: center;
+}
+.product-details .image img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+.solution-section {
+    text-align: center;
+    margin-top: 50px;
+}
+.solution-section h2 {
+    margin-bottom: 30px;
+}
+.solution-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.solution-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px; /* Aumentado */
+    text-align: center;
+    min-height: 300px; /* Altura mínima ajustada */
+}
+.solution-card img {
+    width: 150px; /* Largura aumentada */
+    height: 150px; /* Altura aumentada */
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+    
+    /* Estilo atualizado dos cards */
+    .solution-card {
+        background: linear-gradient(135deg, #6e7799, #21273F); /* Degradê de roxo escuro para roxo claro */
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 30px; /* Aumentado */
+        text-align: center;
+        min-height: 300px; /* Altura mínima ajustada */
+        color: #fff; /* Texto branco para contraste */
+    }
+
+    /* Cards para modo de uso */
+    .card {
+        background: linear-gradient(135deg, #222841, #222841e3); /* Degradê de roxo escuro para roxo claro */
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        color: #fff; /* Texto branco para contraste */
+    }
+
+    /* Ajustes nos títulos e textos */
+    .solution-card h5, 
+    .card h5 {
+        font-size: 1.5rem;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+
+    .solution-card p,
+    .card p {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    .bg-dark-blue {
+        background-color: #001F3F; /* Cor azul escuro */
+    }
+    
+    .promo-img {
+        height: 300px; /* Altura padrão para as imagens */
+        border: 5px solid #ffffff; /* Borda branca */
+        border-radius: 10px; /* Cantos arredondados */
+    }
+    
+    .text-white p {
+        margin-top: 10px;
+        font-size: 1.2rem; /* Tamanho da fonte das garantias */
+    }
+    
+    
+    
